@@ -1,0 +1,29 @@
+.tab-item {
+  display: inline-flex;
+  padding: 8px 10px 6px;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  align-items: center;
+  border-bottom: 3px solid transparent;
+
+  &.actived {
+    color: skyblue;
+    border-bottom: 3px solid skyblue;
+  }
+
+  &:first-child {
+    cursor: text;
+  }
+}
+.tab-item-input {
+  width: 90px;
+  padding: 4px 0 4px 10px;
+  font-size: 13px;
+
+  color: #444;
+  background-color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
